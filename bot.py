@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DRX_OFFICIALX)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DRX_OFFICIALS_BOT)",
                                      disable_web_page_preview=True)
             return
 
@@ -315,7 +315,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                                             url="https://t.me/DRX_OFFICIALS_BOT")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
