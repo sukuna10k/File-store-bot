@@ -32,7 +32,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @DRX_OFFICIALS_BOT
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DRX_OFFICIALX)
+👥 **Support Group:** [Linux Repositories](https://t.me/DRX_OFFICIALS_BOT)
 
 📢 **Updates Channel:** [Discovery Projects](https://t.me/DRX_OFFICIALX)
 """
@@ -43,7 +43,7 @@ Developer is Super Noob. Just Learning from Official Docs. Please Donate the dev
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+[Donate Now](https://t.me/DRX_OFFICIALS_BOT) (Pay)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
