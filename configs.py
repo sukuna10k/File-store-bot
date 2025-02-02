@@ -4,11 +4,11 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
+	API_ID = int(os.environ.get("API_ID", "24817837"))
+	API_HASH = os.environ.get("API_HASH", "acd9f0cc6beb08ce59383cf250052686")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "7444104773:AAHlixOqe26mJ2lMBc3ck27Cvx2stK9y0iA")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "FelixFlixBot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002491166640"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
