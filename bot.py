@@ -363,7 +363,7 @@ async def button(bot: Client, cmd: CallbackQuery):
 
     elif "refreshForceSub" in cb_data:
         if Config.UPDATES_CHANNEL:
-            if Config.UPDATES_CHANNEL.startswith("-100"):
+            if Config.UPDATES_CHANNEL.startswith("-1002265513823"):
                 channel_chat_id = int(Config.UPDATES_CHANNEL)
             else:
                 channel_chat_id = Config.UPDATES_CHANNEL
@@ -407,8 +407,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/bot_Kingdot"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/bot_Kingdox")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
