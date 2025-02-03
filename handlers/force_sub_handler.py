@@ -21,9 +21,9 @@ async def get_invite_link(bot: Client, chat_id: Union[str, int]):
 
 
 async def handle_force_sub(bot: Client, cmd: Message):
-    if Config.UPDATES_CHANNEL and Config.UPDATES_CHANNEL.startswith("-100"):
+    if Config.UPDATES_CHANNEL and Config.UPDATES_CHANNEL.startswith("-1002265513823"):
         channel_chat_id = int(Config.UPDATES_CHANNEL)
-    elif Config.UPDATES_CHANNEL and (not Config.UPDATES_CHANNEL.startswith("-100")):
+    elif Config.UPDATES_CHANNEL and (not Config.UPDATES_CHANNEL.startswith("-1002265513823")):
         channel_chat_id = Config.UPDATES_CHANNEL
     else:
         return 200
@@ -44,15 +44,18 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use the Bot!",
+            text="**Veuillez Rejoindre mes chaînes, pour m'utiliser!**\n\n"
+                 "Seul les membres de mes chaîne peuvent m'utiliser!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🤖Chaîne du bot", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                        InlineKeyboardButton("Chaîne Flix", url='https://t.me/AntiFlix_A')
+                    ],            
+                    [
+                        InlineKeyboardButton("🔄 Ressayer 🔄", callback_data="refreshForceSub")
                     ]
                 ]
             )
